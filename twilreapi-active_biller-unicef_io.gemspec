@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["David Wilkie"]
   spec.email         = ["dwilkie@gmail.com"]
 
-  spec.summary       = %q{Twilreapi Billing Logic for People In Need Cambodia}
+  spec.summary       = %q{Twilreapi Billing Logic for UNICEF IO}
   spec.homepage      = "https://github.com/dwilkie/twilreapi-active_biller-unicef_io"
   spec.license       = "MIT"
 
