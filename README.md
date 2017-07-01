@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dwilkie/twilreapi-active_biller-unicef_io.svg?branch=master)](https://travis-ci.org/dwilkie/twilreapi-active_biller-unicef_io)
 
-This gem contains billing logic for People In Need Cambodia for [Twilreapi](https://github.com/dwilkie/twilreapi).
+This gem contains billing logic for [somleng.unicef.io](somleng.unicef.io) for [Twilreapi](https://github.com/dwilkie/twilreapi).
 
 ## Installation
 
