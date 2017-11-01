@@ -1,15 +1,15 @@
 # Twilreapi::ActiveBiller::UnicefIO
 
-[![Build Status](https://travis-ci.org/dwilkie/twilreapi-active_biller-unicef_io.svg?branch=master)](https://travis-ci.org/dwilkie/twilreapi-active_biller-unicef_io)
+[![Build Status](https://travis-ci.org/somleng/twilreapi-active_biller-unicef_io.svg?branch=master)](https://travis-ci.org/somleng/twilreapi-active_biller-unicef_io)
 
-This gem contains billing logic for [somleng.unicef.io](somleng.unicef.io) for [Twilreapi](https://github.com/dwilkie/twilreapi).
+This gem contains billing logic for [somleng.unicef.io](somleng.unicef.io) for [Twilreapi](https://github.com/somleng/twilreapi).
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'twilreapi-active_biller-unicef_io', :github => "dwilkie/twilreapi-active_biller-unicef_io"
+gem 'twilreapi-active_biller-unicef_io', :github => "somleng/twilreapi-active_biller-unicef_io"
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 ## Configuration
 
-To configure [Twilreapi](https://github.com/dwilkie/twilreapi) to use `Twilreapi::ActiveBiller::UnicefIO::Biller`, set the environment variable `ACTIVE_BILLER_CLASS_NAME=Twilreapi::ActiveBiller::UnicefIO::Biller`
+To configure [Twilreapi](https://github.com/somleng/twilreapi) to use `Twilreapi::ActiveBiller::UnicefIO::Biller`, set the environment variable `ACTIVE_BILLER_CLASS_NAME=Twilreapi::ActiveBiller::UnicefIO::Biller`
 
 The following environment variables can be set to determine the billing:
 
@@ -33,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/dwilkie/twilreapi-active_biller-unicef_io.
+Bug reports and pull requests are welcome on GitHub at https://github.com/somleng/twilreapi-active_biller-unicef_io.
 
 ## License
 
