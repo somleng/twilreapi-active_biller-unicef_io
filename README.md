@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/somleng/twilreapi-active_biller-unicef_io.svg?branch=master)](https://travis-ci.org/somleng/twilreapi-active_biller-unicef_io)
 
+## DEPRECATION NOTICE
+
+This has been merged into [Twilreapi](https://github.com/somleng/twilreapi) and is no longer maintained
+
 This gem contains billing logic for [somleng.unicef.io](somleng.unicef.io) for [Twilreapi](https://github.com/somleng/twilreapi).
 
 ## Installation
@@ -22,8 +26,8 @@ To configure [Twilreapi](https://github.com/somleng/twilreapi) to use `Twilreapi
 
 The following environment variables can be set to determine the billing:
 
-* `TWILREAPI_ACTIVE_BILLER_UNICEF_IO_PER_MINUTE_CALL_RATE_TO_${OPERATOR_ID}`:  The per minute call rate to `OPERATOR_ID` in micro currency units. E.g. `700000` is equivalent to `$0.70`
-* `TWILREAPI_ACTIVE_BILLER_UNICEF_IO_BILL_BLOCK_SECONDS`: The amount of seconds in a bill block. E.g. `15` means 15 second bill blocks.
+-   `TWILREAPI_ACTIVE_BILLER_UNICEF_IO_PER_MINUTE_CALL_RATE_TO_${OPERATOR_ID}`:  The per minute call rate to `OPERATOR_ID` in micro currency units. E.g. `700000` is equivalent to `$0.70`
+-   `TWILREAPI_ACTIVE_BILLER_UNICEF_IO_BILL_BLOCK_SECONDS`: The amount of seconds in a bill block. E.g. `15` means 15 second bill blocks.
 
 ## Development
 
@@ -33,9 +37,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/somleng/twilreapi-active_biller-unicef_io.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/somleng/twilreapi-active_biller-unicef_io>.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
